@@ -1,0 +1,14 @@
+# COLOR
+COLOR_LIME = (204, 255, 0)
+COLOR_WHITE = (255, 255, 255)
+
+# MENU
+MENU_OPTION = ('NEW GAME',
+               'NEW GAME 2 PLAYERS - COOPERATIVE',
+               'NEW GAME 2 PLAYERS - COMPETITIVE',
+               'SCORE',
+               'EXIT')
+
+# WIN
+WIN_WIDTH = 576
+WIN_HEIGTH = 324
