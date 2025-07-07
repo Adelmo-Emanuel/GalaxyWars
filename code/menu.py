@@ -14,7 +14,7 @@ class Menu:
         self.surf = pygame.image.load('asset/TelaMenu.png')
         self.rect = self.surf.get_rect(left=0, top=0)
 
-    def run(self, ):
+    def run(self,):
         menu_option = 0
         pygame.mixer_music.load('asset/TelaMenuBoa.mp3')
         pygame.mixer_music.play(-1)
@@ -36,12 +36,12 @@ class Menu:
                     pygame.quit()  # Close Window
                     quit()  # end pygame
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_DOWN:  # DOWN KEY
+                    if event.key == pygame.K_DOWN:  # tecla baixo
                         if menu_option < len(MENU_OPTION) - 1:
                             menu_option += 1
                         else:
                             menu_option = 0
-                    if event.key == pygame.K_UP:  # UP KEY
+                    if event.key == pygame.K_UP:  # tecla cima
                         if menu_option > 0:
                             menu_option -= 1
                         else:
